@@ -1,0 +1,111 @@
+Snippets
+
+Snippet	Renders
+imr	Import React
+imrc	Import React / Component
+impt	Import PropTypes
+cc	Class Component
+ccc	Class Component With Constructor
+sfc	Stateless Function Component
+cdm	componentDidMount
+cwm	componentWillMount
+cwrp	componentWillReceiveProps
+scu	shouldComponentUpdate
+cwu	componentWillUpdate
+cdu	componentDidUpdate
+cwu	componentWillUpdate
+cdc	componentDidCatch
+ss	setState
+ren	render
+Full Expansions
+
+imr - Import React
+
+import React from 'react';
+imrc - Import React, Component
+
+import React, { Component } from 'react';
+impt - Import PropTypes
+
+import PropTypes from 'prop-types';
+cc - Class Component
+
+class | extends Component {
+  state = { | },
+  render() {
+    return ( | );
+  }
+}
+
+export default |;
+ccc - Class Component With State
+
+class | extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { | };
+  }
+  render() {
+    return ( | );
+  }
+}
+
+export default |;
+sfc - Stateless Function Component
+
+const | = props => {
+  return ( | );
+};
+
+export default |;
+cdm - componentDidMount
+
+componentDidMount() {
+  |
+}
+cwm - componentWillMount
+
+componentWillMount() {
+  |
+}
+cwrp - componentWillReceiveProps
+
+componentWillReceiveProps(nextProps) {
+  |
+}
+scu - shouldComponentUpdate
+
+shouldComponentUpdate(nextProps, nextState) {
+  |
+}
+cwu - componentWillUpdate
+
+componentWillUpdate(nextProps, nextState) {
+  |
+}
+cdu - componentDidUpdate
+
+componentDidUpdate(prevProps, prevState) {
+  |
+}
+cwun - componentWillUnmount
+
+componentWillUnmount() {
+  |
+}
+cdc - componentDidCatch
+
+componentDidCatch(error, info) {
+  |
+}
+ss - setState
+
+this.setState({ | : | });
+ren - render
+
+render() {
+  return (
+    |
+  )
+}
+Thank You
